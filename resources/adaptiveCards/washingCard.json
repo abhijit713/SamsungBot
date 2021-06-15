@@ -1,0 +1,54 @@
+
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "speak": "Samsung Washing Machine which is rated 9.3 by customers.",
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": 2,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Washing Machine"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Samsung Washing Machine",
+              "weight": "bolder",
+              "size": "Large",
+              "spacing": "none"
+            },
+            {
+              "type": "TextBlock",
+              "text": "9.3 ★★★★★★★★★☆ (1100) · $$",
+              "isSubtle": true,
+              "spacing": "none"
+            },
+            {
+              "type": "TextBlock",
+              "text": "**Abhijit . said** \"I'm fully satisfied to used this Washing Machine 10 stars. I am using this Washing Machine from two year!\"",
+              "size": "small",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://www.technosamrat.com/wp-content/uploads/2017/11/Samsung-Washing-Machine.jpg",
+              "size": "auto"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

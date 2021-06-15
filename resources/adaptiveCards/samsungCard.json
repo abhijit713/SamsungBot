@@ -1,0 +1,57 @@
+
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+      {
+    
+        "type": "ColumnSet",
+        "columns": [
+          {
+            "type": "Column",
+            "width": 2,
+            "items": [
+              {
+                "type": "TextBlock",
+                "text": " "
+              },
+              {
+                "type": "TextBlock",
+                "text": " Samsung Support Assistant ",
+                "weight": "bolder",
+                "size": "Medium",
+                "spacing": "none"
+                
+              },
+              {
+                "type": "TextBlock",
+                "text": "Innovation & Automation ",
+                "weight": "bolder",
+                
+                "spacing": "none"
+              },
+              {
+                "type": "TextBlock",
+                
+                "size": "small",
+                "wrap": true
+              }
+            ]
+          },
+          {
+            "type": "Column",
+            "width": 1,
+            "items": [
+              {
+                "type": "Image",
+                "url": "https://samsungrumors.net/wp-content/uploads/2017/02/Samsung-Galaxy-AI-assistant-Bixby-600x338.jpg",
+                "size": "auto"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

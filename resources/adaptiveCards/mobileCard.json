@@ -1,0 +1,54 @@
+
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+      {
+        "speak": "Samsung Mobile which is rated 9.3 by customers.",
+        "type": "ColumnSet",
+        "columns": [
+          {
+            "type": "Column",
+            "width": 2,
+            "items": [
+              {
+                "type": "TextBlock",
+                "text": "Samsung Mobile"
+              },
+              {
+                "type": "TextBlock",
+                "text": "Samsung Mobile",
+                "weight": "bolder",
+                "size": "Large",
+                "spacing": "none"
+              },
+              {
+                "type": "TextBlock",
+                "text": "9.3 ★★★★★★★★★☆ (1100) · $$",
+                "isSubtle": true,
+                "spacing": "none"
+              },
+              {
+                "type": "TextBlock",
+                "text": "**Abhijit . said** \"I'm fully satisfied to used this Samsung Mobile 10 stars. I am using this Samsung Mobile from two year!\"",
+                "size": "small",
+                "wrap": true
+              }
+            ]
+          },
+          {
+            "type": "Column",
+            "width": 1,
+            "items": [
+              {
+                "type": "Image",
+                "url": "https://www.sammobile.com/wp-content/uploads/2016/04/virgin-mobile-galaxy-j7.jpg",
+                "size": "auto"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

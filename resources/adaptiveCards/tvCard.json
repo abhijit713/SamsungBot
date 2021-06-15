@@ -1,0 +1,54 @@
+
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+      {
+        "speak": "Samsung Television which is rated 9.3 by customers.",
+        "type": "ColumnSet",
+        "columns": [
+          {
+            "type": "Column",
+            "width": 2,
+            "items": [
+              {
+                "type": "TextBlock",
+                "text": "Television"
+              },
+              {
+                "type": "TextBlock",
+                "text": "Samsung Television",
+                "weight": "bolder",
+                "size": "Large",
+                "spacing": "none"
+              },
+              {
+                "type": "TextBlock",
+                "text": "9.3 ★★★★★★★★★☆ (1100) · $$",
+                "isSubtle": true,
+                "spacing": "none"
+              },
+              {
+                "type": "TextBlock",
+                "text": "**Abhijit . said** \"I'm fully satisfied to used this Television 10 stars. I am using this Television from two year!\"",
+                "size": "small",
+                "wrap": true
+              }
+            ]
+          },
+          {
+            "type": "Column",
+            "width": 1,
+            "items": [
+              {
+                "type": "Image",
+                "url": "https://content.etilize.com/650/1031928917.jpg",
+                "size": "auto"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
